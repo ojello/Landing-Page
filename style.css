@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+}
+
+.container-front {
+  height: 100px;
+  background: rgb(113, 166, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-front div h1 {
+  background: rgb(113, 166, 184);
+  text-align: center;
+  font-size: 70px;
+  color: white;
+  text-shadow: 2px 2px rgb(161, 142, 101);
+  font-family: "Marck Script", cursive;
+  font-weight: lighter;
+}
+
+.container-one {
+  background: rgb(113, 166, 184);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px;
+}
+
+.container-one div {
+  background: rgb(113, 166, 184);
+  /* border: 4px solid brown; */
+  height: 300px;
+  width: 450px;
+  text-align: center;
+}
+
+.header-logo img {
+  width: 84px;
+  height: 84px;
+  margin-right: auto;
+  border-radius: 2px;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: right;
+  background: rgb(113, 166, 184);
+  height: 50px;
+  padding: 20px 0px 20px 100px;
+  font-weight: bold;
+  text-shadow: 2px 2px rgb(161, 142, 101);
+}
+
+.header-link a {
+  color: white;
+  font-size: 20px;
+  font-family: "Roboto", arial;
+  margin-right: 25px;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: bold;
+}
+
+h1,
+p,
+h2 {
+  color: white;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+img {
+  max-width: 100%;
+}
+
+/* Good Boys & Girls */
+
+.middle-title-content h1 {
+  color: rgb(82, 75, 75);
+  font-size: 50px;
+  /* font-family: "Marck Script", cursive; */
+  text-shadow: 3px 3px burlywood;
+  /* font-weight: bolder; */
+}
+
+.container-two {
+  background: hsl(42, 19%, 60%);
+  display: flex;
+  flex-wrap: wrap;
+  height: 600px;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.container-two div {
+  height: 200px;
+  width: 200px;
+  font-family: "Marck Script", cursive;
+  color: white;
+  text-shadow: 2px 2px rgb(102, 94, 94);
+  border: 4px solid rgb(65, 60, 38);
+  border-radius: 15px;
+}
+
+.container-two img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.container-two p {
+  font-weight: bold;
+  font-family: "Roboto", arial;
+  /* text-shadow: 2px 2px rgb(65, 48, 5); */
+}
+
+.container-three {
+  height: 400px;
+  background: #4b5f66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-three div {
+  height: 150px;
+  width: 400px;
+  color: white;
+  font-size: 25px;
+  /* border: 4px solid black; */
+}
+.container-three h3 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.container-four {
+  height: 300px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-four div {
+  height: 50px;
+  width: 800px;
+  padding-bottom: 80px;
+  background: rgb(113, 166, 184);
+  border-radius: 5px;
+}
+
+.footer {
+  height: 40px;
+  background: rgb(40, 80, 94);
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  color: white;
+  padding-top: 40px;
+}
+
+.btn {
+  background: rgb(81, 117, 134);
+  border-radius: 5px;
+  padding: 15px;
+  width: 100px;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: rgb(39, 74, 85);
+}
